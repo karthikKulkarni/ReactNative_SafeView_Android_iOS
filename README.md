@@ -7,8 +7,8 @@ Additionally a little tweak in Android app/MainActivity.java to make the StatusB
 
 #### Android:
 
-![Alt text](androidrotation.mov?raw=true 'Android Save Area')
+![Alt text](androidrotation.gif?raw=true 'Android Save Area')
 
 #### iOS
 
-![Alt text](iosrotation.mov?raw=true 'iOS Save Area')
+![Alt text](iosrotation.gif?raw=true 'iOS Save Area')
