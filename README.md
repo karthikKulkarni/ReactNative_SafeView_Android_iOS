@@ -5,9 +5,9 @@ Thanks to [@janicduplessis](https://github.com/janicduplessis) for [react-native
 
 Additionally a little tweak in Android app/MainActivity.java to make the StatusBar and NavigationBar translucent.
 
-#### Things to note:
+### Things to note:
 
-##### 1. Android
+#### 1. Android
 
 To make the StatusBar and NavigationBar translucent, make the following changes in android/app/src/...MainActivity.java
 
@@ -29,7 +29,7 @@ Add Layout Props for the Window:
 
 Note : **WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS** & **WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION**
 
-##### 2. React Native
+#### 2. React Native
 
 Below code snippet explains minimal implementation of SafeViewArea using _react-native-safe-area-context_.
 
@@ -54,11 +54,9 @@ const App = () => {
       </SafeAreaProvider>
   );
 };
-
 export default App;
-
 ```
 
-| Android                                                  |                         iOS                          |
+| Android(.gif)                                            |                      iOS(.gif)                       |
 | -------------------------------------------------------- | :--------------------------------------------------: |
 | <img src="androidrotation.gif" width="400" height="400"> | <img src="iosrotation.gif" width="400" height="400"> |
